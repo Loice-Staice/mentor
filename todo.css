@@ -60,7 +60,7 @@
 h1{
     text-align: center;
 }
-topbar{
+.topbar{
     background-color: teal;
     overflow: hidden;
     height: 60px;

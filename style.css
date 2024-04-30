@@ -10,6 +10,22 @@ body{
     background-color: rgb(224, 140, 140);
     border-radius: 7px;
 }
+#trevy{
+    width: 400px;
+    height: 400px;
+    margin-left: 680px;
+    margin-top: 90px;
+}
+#summary{
+    /* background-image:linear-gradient(rgba(65, 13, 13, 0.5), rgba(49, 29, 29, 0.5)), url(pictures/trevor.jpg); */
+    /* filter: brightness(50%); */
+    color: black;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
 .button{
     margin-left: 15%;
     width: 60%;
@@ -227,6 +243,9 @@ form input{
     border-radius: 6px;
     outline: none;
 
+}
+#summary{
+    background-image: url(pictures/trevor.jpg);
 }
 input[type="button"]{
     width: 70%;
