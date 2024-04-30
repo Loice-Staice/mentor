@@ -127,9 +127,9 @@ span{
     /* overflow: hidden; */
     height: 60px;
     font-size: x-small;
-    width: 80%;
-    font-size: x-small;
+    width: 100%;
     filter: brightness(100%);
+    display: block;
 }
 .logo {
     width: 50px;
