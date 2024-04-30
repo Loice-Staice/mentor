@@ -417,6 +417,239 @@ li {
  
 }
 
+@media screen and (min-width:767px) and (max-width:1180px){
+    body{
+     /* background-color: #C26D59; */
+     font-family: 'Robot', sans-serif;
+ }
+ .signup-box{
+     width: 340px;
+     height: 650px;
+     /* margin: auto; */
+     /* margin-top: 30px; */
+     background-color: rgb(224, 140, 140);
+     border-radius: 7px;
+     flex-wrap: wrap;
+ }
+ 
+ .button{
+     margin-left: 15%;
+     width: 25%;
+     border-radius: 15px;
+     height: 40px;
+     background-color:rgb(82, 195, 230);
+     color: white;
+ }
+ #trevy{
+     width: 150px;
+     height: 120px;
+     margin-left: 300px;
+     margin-top: 10px;
+ }
+ #summary{
+     /* background-image:linear-gradient(rgba(65, 13, 13, 0.5), rgba(49, 29, 29, 0.5)), url(pictures/trevor.jpg); */
+     /* filter: brightness(50%); */
+     color: black;
+     background-size: cover;
+     padding-top: 50px;
+     text-align: center;
+     padding: 20px;
+     font-size: larger;
+ }
+ h1{
+     text-align: center;
+     padding-top: 15px;
+ }
+ h4{
+     text-align: center;
+ }
+ form{
+     width: 500px;
+     margin-left: 110px;
+ 
+ }
+ form label{
+     display: flex;
+     margin-top: 20px;
+     font-size: 12px;
+ }
+ form input{
+     width: 50%;
+     padding: 9px;
+     border: none;
+     border: 1px solid gray;
+     border-radius: 6px;
+     outline: none;
+ 
+ }
+ 
+ input[type="button"]{
+     width: 70%;
+     height: 35px;
+     margin-top: 20px;
+     border: none;
+     background-color: #49c1a2;
+     color: white;
+     font-size: 18px;
+ }
+ p{
+     text-align: center;
+     padding-top: 20px;
+     font-size: 10px;
+     margin-left: 10px;
+ }
+ .form{
+     margin-left: 2px;
+     flex-wrap: wrap;
+     padding-left: 2px;
+     width: 70%;
+     height: 30%;
+ }
+ .already{
+     /* text-align: center; */
+     margin-top: 20px;
+     font-size: 15px;
+     padding-left: 20px;
+ }
+ /* //login */
+ .log-in{
+     width: 350px;
+     height: 300px;
+     /* margin: auto; */
+     margin-top: 200px;
+     background-color: rgb(224, 140, 140);
+     border-radius: 7px;
+     flex-wrap: wrap;
+     /* margin-left: 10px; */
+ }
+ .inputs{
+     margin-left: 20px;
+ }
+ 
+ /* //achievements */
+ #achievements{
+     background-color: coral;
+     border-radius: 25px;
+     text-align: center;
+     height: 50vh;
+     border: 0 solid;
+     margin-left: 400px;
+     margin-right: 700px;
+ }
+ #todo-container{
+     margin-left: 100px;
+ }
+ .header-achievements{
+     text-align: center;
+ }
+ .texts{
+     display: flex;
+     text-align: center;
+ }
+ /* //mentors-profile */
+ .main-profile{
+     padding-right: 10px;
+     display: flex;
+     justify-content: center;
+     background-image: url(pictures/mentor.jpg);
+     height: 100vh;
+     font-size: 30px;
+     background-size: cover;
+     filter: brightness(50%);
+ }
+ .topbar{
+     background-color: teal;
+     /* overflow: hidden; */
+     height: 60px;
+     width: 100%;
+     filter: brightness(100%);
+ }
+ .no-account{
+     padding-right: 300px;
+ }
+ .topbar a{
+     float: right;
+     color: whitesmoke;
+     text-align: center;
+     padding: 20px 26px;
+     text-decoration: none;
+     font-size: 26px;
+ }
+ /* //landingpage */
+ .text-landingpage{
+     position: absolute ;
+     top: 30%;
+     padding-left: 40px;
+     color: whitesmoke;
+     font-size: 30px;
+     flex-wrap: wrap;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+ 
+ }
+ .to-knowmore{
+     position: absolute ;
+     top: 45%;
+     padding-left: 80px;
+     color: whitesmoke;
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 70;
+ 
+ }
+ /* //achievements */
+ #body3 {
+     font-family: Arial, sans-serif;
+     background-color: #F4F4F4;
+     margin: 0;
+     padding: 0;
+ }
+ .container3{
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 80px;
+     background-color: rgb(185,31,101);
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ #achievementInput{
+     padding: 20px;
+     width: 300px;
+ }
+ h2 {
+     text-align: center;
+ }
+ .input-container {
+     margin-bottom: 10px;
+ }
+ ul {
+     list-style-type: none;
+     padding: 0;
+ }
+ li {
+     margin-bottom: 10px;
+ }
+ .task {
+     display: flex;
+     align-items: center;
+ }
+ .task input[type="checkbox"] {
+     margin-right: 10px;
+ }
+  
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
 
 
