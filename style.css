@@ -219,10 +219,10 @@ li {
     color: white;
 }
 #trevy{
-    width: 50px;
-    height: 80px;
-    margin-left: 680px;
-    margin-top: 90px;
+    width: 150px;
+    height: 120px;
+    margin-left: 110px;
+    margin-top: 10px;
 }
 #summary{
     /* background-image:linear-gradient(rgba(65, 13, 13, 0.5), rgba(49, 29, 29, 0.5)), url(pictures/trevor.jpg); */
@@ -260,9 +260,7 @@ form input{
     outline: none;
 
 }
-#summary{
-    background-image: url(pictures/trevor.jpg);
-}
+
 input[type="button"]{
     width: 70%;
     height: 35px;
