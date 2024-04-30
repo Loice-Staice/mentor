@@ -16,14 +16,23 @@ body{
     margin-left: 680px;
     margin-top: 90px;
 }
+#summa{
+    text-align: center;
+    padding-right: 120px;
+}
+.par{
+    text-align: left;
+}
 #summary{
     /* background-image:linear-gradient(rgba(65, 13, 13, 0.5), rgba(49, 29, 29, 0.5)), url(pictures/trevor.jpg); */
     /* filter: brightness(50%); */
     color: black;
-    background-size: cover;
-    padding-top: 100px;
-    text-align: center;
-    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black 2px solid;
+    border-radius: 20px;
+    /* text-align: center; */
+    margin: 2%;
+    background-color: teal;
     font-size: larger;
 }
 .button{
