@@ -13,7 +13,8 @@ body{
 #trevy{
     width: 400px;
     height: 400px;
-    margin-left: 680px;
+    margin-left: 650px;
+    justify-content: center;
     margin-top: 90px;
 }
 #summa{
@@ -22,6 +23,7 @@ body{
 }
 .par{
     text-align: left;
+    margin-left: 10px;
 }
 #summary{
     /* background-image:linear-gradient(rgba(65, 13, 13, 0.5), rgba(49, 29, 29, 0.5)), url(pictures/trevor.jpg); */
